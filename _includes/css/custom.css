@@ -1,6 +1,6 @@
 @font-face {
     font-family: AdamCG;
-    src: url("_assets/fonts/adamcg.otf") format("opentype");
+    src: url("assets/fonts/adamcg.otf") format("opentype");
 }
 
 .navbar-brand {
