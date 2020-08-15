@@ -4,35 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- hr.ninja:after {
-    content: "\f504" !important;
-    font-family: 'Font Awesome 5 Free' !important;
-    font-weight: 900 !important;
-}
-
-hr.laptop:after {
-    content: "\f5fc" !important;
-    font-family: 'Font Awesome 5 Free' !important;
-    font-weight: 900 !important;
-}
-
-hr.contact:after {
-    content: "\f7c0" !important;
-    font-family: 'Font Awesome 5 Free' !important;
-    font-weight: 900 !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 body {
     overflow-x: hidden;
 }
@@ -247,9 +218,9 @@ section.success {
     height: 100%;
     opacity: 0;
     background: rgba({{ site.color.primary-rgb }},.9);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    transition: all ease .3s;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {

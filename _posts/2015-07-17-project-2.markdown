@@ -1,0 +1,7 @@
+---
+modal-id: 2
+img: bateuabad.png
+alt: image-alt
+title: Bateuabad
+out-url: https://github.com/rodrigorichter/bateuabad
+---

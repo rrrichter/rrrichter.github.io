@@ -3,7 +3,7 @@
     src: url("assets/fonts/adamcg.otf") format("opentype");
 }
 
-.navbar-brand {
+.navbar-brand, h2 {
     font-family: AdamCG,"Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 2px;
 }
@@ -25,4 +25,73 @@
 
 header .intro-text .name {
     text-transform: none;
+}
+
+
+hr.ninja:after {
+    content: "\f504" !important;
+    font-family: 'Font Awesome 5 Free' !important;
+    font-weight: 900 !important;
+}
+
+hr.laptop:after {
+    content: "\f5fc" !important;
+    font-family: 'Font Awesome 5 Free' !important;
+    font-weight: 900 !important;
+}
+
+hr.contact:after {
+    content: "\f7c0" !important;
+    font-family: 'Font Awesome 5 Free' !important;
+    font-weight: 900 !important;
+}
+
+#about {
+    min-height: 90vh;
+    position: relative;
+}
+
+#contact {
+    min-height: 40vh;
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    font-family: AdamCG,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+}
+
+  #portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba({{ site.color.primary-rgb }},.8);
+    -webkit-transition: all ease .25s;
+    -moz-transition: all ease .25s;
+    transition: all ease .25s;
+}
+
+#portfolio .portfolio-item .portfolio-link:hover {
+    transform-origin: center;
+    animation: scale 100ms ease-in-out forwards;
+}
+@keyframes scale {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#portfolio {
+    min-height: 70vh;
+    position: relative;
 }
