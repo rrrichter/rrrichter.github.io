@@ -95,3 +95,29 @@ hr.contact:after {
     min-height: 70vh;
     position: relative;
 }
+
+.btn-social-text span {
+    color: #{{ site.color.secondary-dark }};
+}
+
+.btn-social-text:hover {
+    text-decoration-thickness: 1;
+    text-decoration-color: #{{ site.color.secondary-dark }};
+}
+
+.btn-container-social:hover .btn-outline,
+.btn-container-social:focus .btn-outline,
+.btn-container-social:active .btn-outline {
+    border: solid 2px #{{ site.color.secondary-dark }};
+    color: #fff;
+    background: #{{ site.color.secondary-dark }};
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #{{ site.color.secondary-dark }};
+    color: #fff;
+    background: #{{ site.color.secondary-dark }};
+}

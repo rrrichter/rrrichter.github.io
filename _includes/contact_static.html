@@ -13,9 +13,9 @@
 						<div class="col text-center">
 							<ul class="list-inline">
 								{% for network in site.social %}
-								<li>
-									<a target="_blank" href="{{ network.url }}" class="btn-social btn-outline"><i class="fab fa-{{ network.title }}"></i></a>
-								</li>
+								<li class="btn-container-social"><a class="btn-social-text" target="_blank" href="{{ network.url }}">
+									<span class="btn-social btn-outline"><i class="fab fa-{{ network.title }}"></i></span>
+									<span>{{network.title}}</span></a></li>
 								{% endfor %}
 							</ul>
 						</div>
