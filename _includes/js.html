@@ -24,3 +24,9 @@
     <!-- Disqus Stuff -->
     {% include js_disqus.html %}
     {% endif %}
+
+   <script>
+      $(window).scroll(function(){
+    $(".fade-out").css("opacity", 1.2 - $(window).scrollTop() / 300);
+  });
+   </script>
