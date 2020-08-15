@@ -56,15 +56,6 @@ hr.contact:after {
     position: relative;
 }
 
-.vertical-center {
-    margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     font-family: AdamCG,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
